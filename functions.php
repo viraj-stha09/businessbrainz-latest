@@ -985,7 +985,11 @@ function abm_coe(){
             position: absolute;
             top: 300px;
             left: 176px;
+            cursor: pointer;
+        }
 
+        .area-6:hover{
+            cursor: pointer;
         }
 
         @media screen and (max-width: 1024px) {
@@ -1017,6 +1021,7 @@ function abm_coe(){
             .area_6{
                 top: 285px;
                 left: 173px;
+                cursor: pointer;
             }
 
 
@@ -1060,6 +1065,7 @@ function abm_coe(){
                 left: 130px;
                 height: 60px;
                 width: 130px;
+                 cursor: pointer;
             }
 
         }
@@ -1073,11 +1079,11 @@ function abm_coe(){
     </style>
     <div class="custom_image_wrapper">
         <a href="/reports/abm-company-profile-reports/" target="_blank"><div class="area_1"></div></a>
-        <a href="/reports/one-to-few-abm-reports/" target="_blank"><div class="area_2"></div></a>
-        <a href="/reports/one-to-many-reports/" target="_blank"><div class="area_3"></div></a>
-        <a href="/reports/one-to-many-reports/" target="_blank"><div class="area_4"></div></a>
-        <a href="/reports/one-to-many-reports/" target="_blank"><div class="area_5"></div></a>
-        <a href="/reports/one-to-many-reports/" target="_blank"><div class="area_6"></div></a>
+        <a href="/reports/industry-insight-reports/" target="_blank"><div class="area_2"></div></a>
+        <a href="/services/competitive-intelligence/" target="_blank"><div class="area_3"></div></a>
+        <a href="/services/buyer-persona-insight/" target="_blank"><div class="area_4"></div></a>
+        <a href="/reports/buyer-persona-insight-reports/executive-insight-on-bmws-cio/" target="_blank"><div class="area_5"></div></a>
+        <a id="cta-form" data-toggle="modal" data-target="#cta-form-modal" target="_blank"><div class="area_6"></div></a>
         <img src="https://businessbrainz.com/wp-content/uploads/2022/09/ABM.png" alt="abm coe">
     </div>
 
