@@ -860,19 +860,16 @@ function custom_image(){
             .area_1{
                 top: 40px;
                 left: 281px;
-                background: blue;
             }
 
             .area_2{
                 top: 99px;
                 left: 268px;
-                background: green;
             }
 
             .area_3{
                 top: 170px;
                 left: 225px;
-                background: red;
             }
         }
 
@@ -930,3 +927,160 @@ function report_slider(){
 
 
 add_shortcode('report_slider', 'report_slider');
+
+function abm_coe(){
+    ?>
+    <style>
+        .custom_image_wrapper{
+            position: relative;
+        }
+
+        .area_1{
+            width: 170px;
+            height: 70px;
+            position: absolute;
+            top: 100px;
+            left: 300px;
+
+        }
+
+        .area_2{
+            width: 183px;
+            height: 70px;
+            position: absolute;
+            top: 97px;
+            left: 540px;
+        }
+
+        .area_3{
+            width: 200px;
+            height: 70px;
+            position: absolute;
+            top: 300px;
+            left: 650px;
+
+        }
+
+        .area_4{
+            width: 200px;
+            height: 70px;
+            position: absolute;
+            top: 509px;
+            left: 532px;
+
+        }
+
+        .area_5{
+            width: 200px;
+            height: 90px;
+            position: absolute;
+            top: 509px;
+            left: 294px;
+
+        }
+
+        .area_6{
+            width: 200px;
+            height: 90px;
+            position: absolute;
+            top: 300px;
+            left: 176px;
+
+        }
+
+        @media screen and (max-width: 1024px) {
+            .area_1{
+                top: 95px;
+                left: 285px;
+            }
+
+            .area_2{
+                top: 95px;
+                left: 508px;
+            }
+
+            .area_3{
+                top: 285px;
+                left: 618px;
+            }
+
+            .area_4{
+                top: 482px;
+                left: 512px;
+            }
+
+            .area_5{
+                top: 482px;
+                left: 285px;
+            }
+
+            .area_6{
+                top: 285px;
+                left: 173px;
+            }
+
+
+        }
+
+        @media screen and (max-width: 768px) {
+            .area_1{
+                top: 66px;
+                left: 208px;
+                height: 55px;
+                width: 130px;
+            }
+
+            .area_2{
+                top: 66px;
+                left: 378px;
+                height: 55px;
+                width: 130px;
+            }
+
+            .area_3{
+                top: 212px;
+                left: 462px;
+                height: 55px;
+                width: 130px;
+            }
+            .area_4{
+                top: 360px;
+                left: 380px;
+                height: 55px;
+                width: 130px;
+            }
+             .area_5{
+                top: 360px;
+                left: 214px;
+                height: 60px;
+                width: 130px;
+            }
+             .area_6{
+                top: 206px;
+                left: 130px;
+                height: 60px;
+                width: 130px;
+            }
+
+        }
+
+        @media screen and (max-width: 425px) {
+            .area_1, .area_2, .area_3,.area_4, .area_5, .area_6{
+                display: none
+            }
+        }
+
+    </style>
+    <div class="custom_image_wrapper">
+        <a href="/reports/abm-company-profile-reports/" target="_blank"><div class="area_1"></div></a>
+        <a href="/reports/one-to-few-abm-reports/" target="_blank"><div class="area_2"></div></a>
+        <a href="/reports/one-to-many-reports/" target="_blank"><div class="area_3"></div></a>
+        <a href="/reports/one-to-many-reports/" target="_blank"><div class="area_4"></div></a>
+        <a href="/reports/one-to-many-reports/" target="_blank"><div class="area_5"></div></a>
+        <a href="/reports/one-to-many-reports/" target="_blank"><div class="area_6"></div></a>
+        <img src="https://businessbrainz.com/wp-content/uploads/2022/09/ABM.png" alt="abm coe">
+    </div>
+
+    <?php
+}
+add_shortcode('abm_coe', 'abm_coe');
