@@ -992,6 +992,46 @@ function abm_coe(){
             cursor: pointer;
         }
 
+
+        @media screen and (min-width: 1025px) and (max-width: 1280px) {
+            .area_1{
+                top: 71px;
+                left: 236px;
+            }
+
+            .area_2{
+                top: 71px;
+                left: 424px;
+            }
+
+            .area_3{
+                top: 244px;
+                left: 525px;
+                width: 178px;
+            }
+
+            .area_4{
+                top: 407px;
+                left: 427px;
+                width: 178px;
+            }
+
+            .area_5{
+                top: 399px;
+                left: 235px;
+                width: 176px;
+            }
+
+            .area_6{
+                top: 230px;
+                left: 137px;
+                width: 176px;
+                cursor: pointer;
+            }
+
+        }
+
+
         @media screen and (max-width: 1024px) {
             .area_1{
                 top: 95px;
@@ -1026,6 +1066,8 @@ function abm_coe(){
 
 
         }
+
+
 
         @media screen and (max-width: 768px) {
             .area_1{
